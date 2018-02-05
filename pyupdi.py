@@ -74,7 +74,7 @@ def _main():
         sys.exit(0)
 
     if args.verbose:
-        logging.basicConfig(format="%(levelname)s:%(name)s %(message)s",
+        logging.basicConfig(format="%(asctime)s %(levelname)s:%(name)s %(message)s",
                             level=logging.INFO)
     else:
         logging.basicConfig(format="%(levelname)s:%(name)s %(message)s",
